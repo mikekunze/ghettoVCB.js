@@ -1,0 +1,19 @@
+{
+  "name": "ghettoVCB.js",
+  "version": "0.3.4",
+  "private": true,
+  "scripts": {
+    "start": "coffee app",
+    "test": "vows ./test/test"
+  },
+  "dependencies": {
+    "express": "3.0.0beta6",
+    "jade": "*",
+    "async": "*",
+    "coffee-script": "*",
+    "nodemailer": "*",
+    "vows": "*",
+    "mongoose": "*"
+  },
+  "main": "app.coffee"
+}

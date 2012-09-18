@@ -1,0 +1,7 @@
+ghettoVCB
+./node_modules
+./public
+.idea
+.git
+*.swx
+*.swp
