@@ -7,9 +7,6 @@ class Workflows
 
   parseJobRequest: (args, cb)->
     switch args.workflow
-      when 'fastqc'
-        @fastQc args, cb
-
       when 'ghettoVCB'
         GhettoVCB = require './GhettoVCB'
         backupInstance = new GhettoVCB @website
